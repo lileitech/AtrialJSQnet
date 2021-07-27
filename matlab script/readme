@@ -1,1 +1,6 @@
-
+This the code for MTL-SESAnet work, which including several parts:
+1. Generate LA_label_GauiisanBlur_M.nii.gz;
+2. Generate LA_mesh.stl; ---for LearnGC, and for generating LA_MeshWall_M.nii.gz and LA_MeshWallLabel_M.nii.gz
+3. Generate LA_MeshWall_M.nii.gz and LA_MeshWallLabel_M.nii.gz; ---for LearnGC, for generating scarSegImgM_wall.nii.gz
+4. Generate MeshProb;---for LearnGC
+5. Generate scarSegImgM_wall.nii.gz---done (It will be inputed and converted into prob img of both scar and normal wall in the python code.)
