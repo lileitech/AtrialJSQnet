@@ -4,7 +4,7 @@
 The repository contains the core codes of "[AtrialJSQnet: A New Framework for Joint Segmentation and Quantification of Left Atrium and Scars Incorporating Spatial and Shape Information](https://arxiv.org/pdf/2008.04729.pdf)".
 The code includes four kinds of scripts:
 ### C++ script fold
-This fold includes some tools writed using C++ for the pre-processing of LGE MRI.
+This fold includes some tools written using C++ for the pre-processing of LGE MRI.
 ### LearnGC fold
 This fold includes the python code to train and test the [LearnGC](https://www.sciencedirect.com/science/article/pii/S1361841519301355), which is published in MedIA2019.
 In this manuscript, we employed LearnGC for comparison.
