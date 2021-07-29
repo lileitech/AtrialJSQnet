@@ -6,7 +6,7 @@ The code includes four kinds of scripts:
 ### C++ script fold
 This fold includes some tools writed using C++ for the pre-processing of LGE MRI.
 ### LearnGC fold
-This fold includes the python code to train the [LearnGc](https://www.sciencedirect.com/science/article/pii/S1361841519301355), which is published in MedIA2019.
+This fold includes the python code to train the [LearnGC](https://www.sciencedirect.com/science/article/pii/S1361841519301355), which is published in MedIA2019.
 In this manuscript, we employed LearnGC for comparison.
 Note that the scripts to generate the multi-scale patches and the pre-processing code for LearnGC is not included.
 ### Matlab fold
