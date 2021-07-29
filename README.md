@@ -6,11 +6,13 @@ The code includes four kinds of scripts:
 ### C++ script fold
 This fold includes some tools writed using C++ for the pre-processing of LGE MRI.
 ### LearnGC fold
-This fold includes the python code to train the [LearnGC](https://www.sciencedirect.com/science/article/pii/S1361841519301355), which is published in MedIA2019.
+This fold includes the python code to train and test the [LearnGC](https://www.sciencedirect.com/science/article/pii/S1361841519301355), which is published in MedIA2019.
 In this manuscript, we employed LearnGC for comparison.
 Note that the scripts to generate the multi-scale patches and the pre-processing code for LearnGC is not included.
 ### Matlab fold
 This fold includes some pre-processing scripts employed in AtrialJSQnet, and some of these scripts aimed to use the generated tools.
+### Python script AtrialJSQnet
+This fold includes the python code for training and test the AtrialJSQnet.
 
 ## Dataset
 The dataset employed in this work is from [MICCAI 2018: Atrial Segmentation Challenge](http://www.cardiacatlas.org/challenges/left-atrium-fibrosis-and-scar-segmentation-challenge/).
