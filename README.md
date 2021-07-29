@@ -37,7 +37,7 @@ If this code is useful for you, please kindly cite this work via:
 or
 
 @article{li2020,
-  title={AtrialJSQnet: a new framework for joint segmentation and quantification of left atrium and scars incorporating spatial and shape information},  
+  title={AtrialJSQnet: a new framework for joint segmentation and quantification of left atrium and scars incorporating spatial and shape information},   
   author={Li, Lei and Zimmer, Veronika A and Schnabel, Julia A and Zhuang, Xiahai},  
   journal={arXiv preprint arXiv:2008.04729},  
   year={2020}  
