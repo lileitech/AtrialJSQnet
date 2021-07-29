@@ -1,4 +1,4 @@
-# AtrialGeneral
+# AtrialJSQnet
 
 ## Overview
 The repository contains the core codes of "[AtrialJSQnet: A New Framework for Joint Segmentation and Quantification of Left Atrium and Scars Incorporating Spatial and Shape Information](https://arxiv.org/pdf/2008.04729.pdf)".
