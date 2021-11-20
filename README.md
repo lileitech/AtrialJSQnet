@@ -36,7 +36,7 @@ If this code is useful for you, please kindly cite this work via:
   publisher={Elsevier}  
 }
 
-or
+and
 
 @article{journal/MedIA/li2021,  
   title={AtrialJSQnet: a new framework for joint segmentation and quantification of left atrium and scars incorporating spatial and shape information},   
@@ -44,7 +44,7 @@ or
   journal={Medical Image Analysis},   
   pages={102303},   
   year={2021},    
-  publisher={Elsevier}
+  publisher={Elsevier}  
 }
 
 
