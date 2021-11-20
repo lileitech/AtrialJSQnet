@@ -41,9 +41,9 @@ or
 @article{journal/MedIA/li2021,  
   title={AtrialJSQnet: a new framework for joint segmentation and quantification of left atrium and scars incorporating spatial and shape information},   
   author={Li, Lei and Zimmer, Veronika A and Schnabel, Julia A and Zhuang, Xiahai},   
-  journal={Medical Image Analysis}, 
-  pages={102303}, 
-  year={2021},  
+  journal={Medical Image Analysis},   
+  pages={102303},   
+  year={2021},    
   publisher={Elsevier}
 }
 
