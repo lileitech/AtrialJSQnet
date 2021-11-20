@@ -1,7 +1,7 @@
 # AtrialJSQnet
 
 ## Overview
-The repository contains the core codes of "[AtrialJSQnet: A New Framework for Joint Segmentation and Quantification of Left Atrium and Scars Incorporating Spatial and Shape Information](https://arxiv.org/pdf/2008.04729.pdf)".
+The repository contains the core codes of "[AtrialJSQnet: A New Framework for Joint Segmentation and Quantification of Left Atrium and Scars Incorporating Spatial and Shape Information](https://www.sciencedirect.com/science/article/pii/S1361841521003480)".
 The resposutory includes four folds:
 ### C++ script fold
 This fold includes some tools written using C++ for the pre-processing of LGE MRI.
