@@ -21,22 +21,11 @@ The dataset employed in this work is from [MICCAI 2018: Atrial Segmentation Chal
 You may also be interested in following papers:
 1. [Atrial scar quantification via multi-scale CNN in the graph-cuts framework](https://www.sciencedirect.com/science/article/pii/S1361841519301355)
 2. [Medical Image Analysis on Left Atrial LGE MRI for Atrial Fibrillation Studies: A Review](https://arxiv.org/pdf/2106.09862.pdf)
+3. [AtrialGeneral: Domain Generalization for Left Atrial Segmentation of Multi-center LGE MRIs](https://link.springer.com/chapter/10.1007/978-3-030-87231-1_54)
 
 
 ## Cite
 If this code is useful for you, please kindly cite this work via:
-
-@article{journal/MedIA/li2020,  
-  title={Atrial scar quantification via multi-scale {CNN} in the graph-cuts framework},  
-  author={Li, Lei and Wu, Fuping and Yang, Guang and Xu, Lingchao and Wong, Tom and Mohiaddin, Raad and Firmin, David and Keegan, Jennifer and Zhuang, Xiahai},  
-  journal={Medical image analysis},  
-  volume={60},  
-  pages={101595},   
-  year={2020},    
-  publisher={Elsevier}  
-}
-
-and
 
 @article{journal/MedIA/li2021,  
   title={Atrial{JSQ}net: a new framework for joint segmentation and quantification of left atrium and scars incorporating spatial and shape information},   
