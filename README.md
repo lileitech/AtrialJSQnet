@@ -8,7 +8,7 @@ This fold includes some tools written using C++ for the pre-processing of LGE MR
 ### LearnGC fold
 This fold includes the python code to train and test the [LearnGC](https://www.sciencedirect.com/science/article/pii/S1361841519301355), which was published in MedIA2019.
 In this manuscript, we employed LearnGC for comparison.
-Note that the scripts to generate the multi-scale patches and the pre-processing code for LearnGC are not included here.
+Note that the scripts to generate the multi-scale patches and the pre-processing code for LearnGC are not included here. For the complete version of this code, please kindly refer to https://github.com/Marie0909/LearnGC.
 ### Matlab fold
 This fold includes some pre-processing scripts employed in AtrialJSQnet, and some of these scripts aimed to use the generated C++ tools mentioned in the C++ script fold.
 ### Python script AtrialJSQnet
