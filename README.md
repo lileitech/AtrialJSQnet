@@ -31,8 +31,8 @@ If this code is useful for you, please kindly cite this work via:
   author={Li, Lei and Wu, Fuping and Yang, Guang and Xu, Lingchao and Wong, Tom and Mohiaddin, Raad and Firmin, David and Keegan, Jennifer and Zhuang, Xiahai},  
   journal={Medical image analysis},  
   volume={60},  
-  pages={101595}, 
-  year={2020},  
+  pages={101595},   
+  year={2020},    
   publisher={Elsevier}  
 }
 
