@@ -27,7 +27,7 @@ You may also be interested in following papers:
 If this code is useful for you, please kindly cite this work via:
 
 @article{journal/MedIA/li2020,  
-  title={Atrial scar quantification via multi-scale CNN in the graph-cuts framework},  
+  title={Atrial scar quantification via multi-scale {CNN} in the graph-cuts framework},  
   author={Li, Lei and Wu, Fuping and Yang, Guang and Xu, Lingchao and Wong, Tom and Mohiaddin, Raad and Firmin, David and Keegan, Jennifer and Zhuang, Xiahai},  
   journal={Medical image analysis},  
   volume={60},  
@@ -39,7 +39,7 @@ If this code is useful for you, please kindly cite this work via:
 and
 
 @article{journal/MedIA/li2021,  
-  title={AtrialJSQnet: a new framework for joint segmentation and quantification of left atrium and scars incorporating spatial and shape information},   
+  title={Atrial{JSQ}net: a new framework for joint segmentation and quantification of left atrium and scars incorporating spatial and shape information},   
   author={Li, Lei and Zimmer, Veronika A and Schnabel, Julia A and Zhuang, Xiahai},   
   journal={Medical Image Analysis},   
   pages={102303},   
