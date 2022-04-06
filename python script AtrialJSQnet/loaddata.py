@@ -179,11 +179,11 @@ def LoadDataset_scar(imagenames, labelnames, scarlabelnames):
     # gt_dis_normal, gt_dis_scar = m**(-gt_dis_normal), m**(-gt_dis_scar)
     gt_dis_normal, gt_dis_scar = np.exp(-gt_dis_normal), np.exp(-gt_dis_scar)
 
-    gt_dis_background = F_DistTransform(numpylabel_new2==0)
-    gt_dis_background = np.expand_dims(gt_dis_background, 0)
-    gt_dis_background = np.exp(-gt_dis_background)
-    gt_dis_all = gt_dis_normal + gt_dis_scar + gt_dis_background
-    gt_dis_normal, gt_dis_scar, gt_dis_background = gt_dis_normal/gt_dis_all, gt_dis_scar/gt_dis_all, gt_dis_background/gt_dis_all
+    # gt_dis_background = F_DistTransform(numpylabel_new2==0)
+    # gt_dis_background = np.expand_dims(gt_dis_background, 0)
+    # gt_dis_background = np.exp(-gt_dis_background)
+    # gt_dis_all = gt_dis_normal + gt_dis_scar + gt_dis_background
+    # gt_dis_normal, gt_dis_scar, gt_dis_background = gt_dis_normal/gt_dis_all, gt_dis_scar/gt_dis_all, gt_dis_background/gt_dis_all
 
     # numpylabel_crop = np.expand_dims(np.expand_dims(numpylabel_new2, 0), 0)
     # gt_dis_normal = compute_sdf(numpylabel_crop==421, numpylabel_crop.shape)
