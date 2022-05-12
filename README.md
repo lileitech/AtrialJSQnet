@@ -23,6 +23,9 @@ You may also be interested in following papers:
 2. [Medical Image Analysis on Left Atrial LGE MRI for Atrial Fibrillation Studies: A Review](https://arxiv.org/pdf/2106.09862.pdf)
 3. [AtrialGeneral: Domain Generalization for Left Atrial Segmentation of Multi-center LGE MRIs](https://link.springer.com/chapter/10.1007/978-3-030-87231-1_54)
 
+## Evaluation
+For evaluation, you could run LAScarQS2022_evaluate.py. Before runing LAScarQS2022_evaluate.py, you need to install SimpleITK, medpy and hausdorff by running "pip install SimpleITK/medpy/hausdorff". Also, note that this evaluation tool can only work in windows system as we only compiled the c++ tools in windows now.
+
 
 ## Cite
 If this code is useful for you, please kindly cite this work via:
