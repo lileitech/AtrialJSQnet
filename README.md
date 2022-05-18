@@ -33,11 +33,11 @@ If this code is useful for you, please kindly cite this work via:
 @article{journal/MedIA/li2022,  
   title={Atrial{JSQ}net: a new framework for joint segmentation and quantification of left atrium and scars incorporating spatial and shape information},   
   author={Li, Lei and Zimmer, Veronika A and Schnabel, Julia A and Zhuang, Xiahai},   
-  journal={Medical Image Analysis},   
-  volume={76},
-  pages={102303},
-  year={2022},
-  publisher={Elsevier}
+  journal={Medical Image Analysis},    
+  volume={76}, 
+  pages={102303}, 
+  year={2022}, 
+  publisher={Elsevier} 
 }
 
 
