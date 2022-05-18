@@ -64,7 +64,7 @@ class TrainingDataset(data.Dataset):
             # self.numpyprob_background.extend(numpy2Dbackgroundprob)
             self.numpyprob_normal.extend(numpyprob_normal)
             self.numpyprob_scar.extend(numpyprob_scar)
-            self.NumOfSubjects += NumSlice
+            self.NumOfSubjects += 1
 
     def __getitem__(self, item):
         numpyimage = np.array([self.numpyimage[item]])
