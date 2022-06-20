@@ -51,6 +51,9 @@ def evaluate(args):
             gt_LAscar_volume_name = 'scarSegImgM.nii.gz'
             gt_LAcavity_surface_name = 'LA_surface.nii.gz'
             gt_LAcavity_GaussianBlur_name = 'LA_label_GauiisanBlur_M.nii.gz'
+            
+            os.system(args.toolpath + 'zxhimageinfo ' + gt_LAcavity_volume_name + ' -i ' + gt_LAcavity_volume_name)
+            os.system(args.toolpath + 'zxhimageinfo ' + gt_LAscar_volume_name + ' -i ' + gt_LAscar_volume_name)
 
             # generate target LA surface for scar projection
             # toolpath = script_path + 'tools/'
@@ -58,7 +61,7 @@ def evaluate(args):
             if not os.path.exists(gt_LAcavity_GaussianBlur_name):
                 os.system(args.toolpath + 'zxhimageop -int ' + gt_LAcavity_volume_name + ' -o ' + gt_LAcavity_GaussianBlur_name + ' -gau 4 -v 0 ')
             if not os.path.exists(gt_LAcavity_surface_name):
-                os.system(args.toolpath + 'zxhimageinfo ' + gt_LAcavity_volume_name + ' -i ' + gt_LAcavity_volume_name)
+                # os.system(args.toolpath + 'zxhimageinfo ' + gt_LAcavity_volume_name + ' -i ' + gt_LAcavity_volume_name)
                 os.system(args.toolpath + 'zxhboundary -i ' + gt_LAcavity_volume_name + ' -o ' + gt_LAcavity_surface_name + '  -R 1 420 -v 0 ')
             # generate projected  ground truth scar segmentation
             gt_LAscar_surface_name = gt_LAscar_volume_name.replace('.nii.gz', '_surface.nii.gz')
