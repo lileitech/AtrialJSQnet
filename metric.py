@@ -54,7 +54,7 @@ def calculate_binary_sen(y_true, y_pred,thres=0.5):
     y_pred = np.where(y_pred > thres, 1, 0)
     return sensitivity(y_pred, y_true)
 
-def perf_measure(y_actual, y_hat):
+def perf_measure(y_hat, y_actual):
     TP = 0
     FP = 0
     TN = 0
@@ -71,6 +71,7 @@ def perf_measure(y_actual, y_hat):
            FN += 1
 
     return TN, TP
+
 def calculate_binary_acc(y_true, y_pred, thres=0.5):
     y_true = np.squeeze(y_true)
     y_pred = np.squeeze(y_pred)
@@ -78,7 +79,8 @@ def calculate_binary_acc(y_true, y_pred, thres=0.5):
     y_pred = np.where(y_pred > thres, 1, 0)
     se = sensitivity(y_pred, y_true)
     sp = specificity(y_pred, y_true)
-    TN = true_negative_rate(y_pred, y_true)
-    TP = true_positive_rate(y_pred, y_true)
+    TN, TP = perf_measure(y_pred, y_true)
+    # TN = true_negative_rate(y_pred, y_true)
+    # TP = true_positive_rate(y_pred, y_true)
     acc = (TN + TP)/(TN/sp + TP/se)
     return acc
